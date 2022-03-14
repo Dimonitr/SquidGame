@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="soundplay_node" type="soundplay_node.py" pkg="sound_play" />
+  <node pkg="squid_demo" name="squid_demo" type="demo.py" output="screen" />
+</launch>
